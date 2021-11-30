@@ -1,0 +1,26 @@
+.jokes__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jokes__link {
+    text-decoration: none;
+    color: #282c34;
+    cursor: pointer;
+    transition: color 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+
+    &:hover {
+        color: #56afcc;
+     }
+}
+
+.jokes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}

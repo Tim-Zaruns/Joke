@@ -1,0 +1,22 @@
+.jokes__nav--wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #282c34;
+  margin-bottom: 30px;
+}
+
+.jokes__nav--category {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #61dafb;
+  }
+}
+
+.link {
+  text-decoration: none;
+}

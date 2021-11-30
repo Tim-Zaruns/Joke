@@ -1,0 +1,54 @@
+.about__joke--wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #61dafb;
+}
+
+.about__joke--info {
+  font-size: 20px;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #eeeeee;
+  transition: background-color, color 0.5s;
+  &:hover {
+    background-color: #282c34;
+    color: white;
+  }
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+.inactive {
+  max-height: 0;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.active {
+  height: auto;
+  overflow: hidden;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+
+}
+
+.accordion__selector {
+  font-size: 25px;
+  font-weight: bold;
+}
